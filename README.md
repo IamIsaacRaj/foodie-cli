@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Foodie-cli Project
 
 
@@ -56,3 +57,6 @@ The project is structured into several packages:
 Data for customers, dishes, and restaurants is stored in CSV format within the `data` folder.
 
 
+=======
+# foodie-cli
+>>>>>>> ccaec8776d2729be3851e1ba7187df4fadb974ef

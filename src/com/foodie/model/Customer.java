@@ -39,10 +39,17 @@ public class Customer {
     public void setPassword(String password) {
         this.password = password;
     }
+<<<<<<< HEAD
 
     public Customer() {
     }
 
+=======
+//  No Arg Constructor
+    public Customer() {
+    }
+//  Override hashCode() and equals() methods
+>>>>>>> ccaec8776d2729be3851e1ba7187df4fadb974ef
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -56,6 +63,10 @@ public class Customer {
         return Objects.hash(id, name, email, password);
     }
 
+<<<<<<< HEAD
+=======
+//  Override toString() methods
+>>>>>>> ccaec8776d2729be3851e1ba7187df4fadb974ef
 
     @Override
     public String toString() {
