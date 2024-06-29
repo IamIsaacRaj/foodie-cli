@@ -65,4 +65,5 @@ public class Dishes {
                 ", price=" + price +
                 '}';
     }
+
 }
