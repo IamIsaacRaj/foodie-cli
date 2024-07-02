@@ -7,7 +7,7 @@ public class Order {
     private String id;
     private Customer customer;
     private Restaurant restaurant;
-    private List<Dishes> dishes;
+    private List<Dish> dishes;
     private double price;
 
     public String getId() {
@@ -34,11 +34,11 @@ public class Order {
         this.restaurant = restaurant;
     }
 
-    public List<Dishes> getDishes() {
+    public List<Dish> getDishes() {
         return dishes;
     }
 
-    public void setDishes(List<Dishes> dishes) {
+    public void setDishes(List<Dish> dishes) {
         this.dishes = dishes;
     }
 

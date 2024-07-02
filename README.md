@@ -3,14 +3,14 @@
 
 
 ## 1. Purpose
-The purpose of this document is to provide a detailed specification for a command-line interface (CLI) application similar to Zomato. The application aims to provide functionality for customers to choose restaurants, browse dishes, and place orders.
+The purpose of this document is to provide a detailed specification for a command-line interface (CLI) application similar to Zomato. The application aims to provide functionality for customers to choose restaurants, browse dish, and place orders.
 
 ## 1.1 Scope
 This application will support the following features:
 - Customer registration and login
 - Viewing available restaurants
-- Browsing dishes from selected restaurants
-- Placing orders for dishes
+- Browsing dish from selected restaurants
+- Placing orders for dish
 
 ## 2. System Overview
 The system is implemented as a simple CLI-based Java application. It includes various classes to represent Customers, Restaurants, Dishes, and Orders.
@@ -41,7 +41,7 @@ The project is structured into several packages:
 - Overridden hashCode(), equals(), and toString() methods
 
 ### Order
-- Attributes: id, customer, restaurant, dishes, price
+- Attributes: id, customer, restaurant, dish, price
 - Encapsulated with private fields
 - Includes no-arg constructors, getters, setters
 - Overridden hashCode(), equals(), and toString() methods
@@ -54,5 +54,5 @@ The project is structured into several packages:
 
 ## Data Storage
 
-Data for customers, dishes, and restaurants is stored in CSV format within the `data` folder.
+Data for customers, dish, and restaurants is stored in CSV format within the `data` folder.
 

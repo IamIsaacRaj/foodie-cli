@@ -2,7 +2,7 @@ package com.foodie.model;
 
 import java.util.Objects;
 
-public class Dishes {
+public class Dish {
     private String id;
     private String name;
     private String description;
@@ -40,15 +40,15 @@ public class Dishes {
         this.price = price;
     }
 
-    public Dishes() {
+    public Dish() {
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Dishes dishes = (Dishes) o;
-        return Double.compare(price, dishes.price) == 0 && Objects.equals(id, dishes.id) && Objects.equals(name, dishes.name) && Objects.equals(description, dishes.description);
+        Dish dish = (Dish) o;
+        return Double.compare(price, dish.price) == 0 && Objects.equals(id, dish.id) && Objects.equals(name, dish.name) && Objects.equals(description, dish.description);
     }
 
     @Override
